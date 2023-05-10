@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;500&family=Space+Mono&display=swap');
+
+
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color:beige;
+  line-height: 150%;
+  text-align: center;
+  padding: 16px;
+
+}
+
+h1 {
+  color:rgb(22, 197, 133);
+  line-height: 1.2;
+
+
+}
+
+p {
+  color:darkolivegreen;
+  font-size: 15px;
+}
+
+.container {
+width: 600px;        /* Set the width */
+margin: 0 auto;      /* Set automatic margins on right/left */
+}
+
+.card {
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 14px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+margin: 15px;
+}
+
+.card:hover {
+  background: rgb(250, 255, 196);
+}
+
+.img-circle {
+  border-radius: 20%;
+  zoom: 100%;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+h2 {
+  color:rgb(22, 197, 133)
+
+}
+
+.bigger-txt {
+  font-size: large;
+}
+
+.button {
+  background-color: rgb(22, 197, 133);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background: rgb(94, 125, 103);
+}
+
+.button4{
+  border-radius: 12px;
+  margin: inherit;
+}
+
+img {
+  transition: transform .7s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+}
+
+.social-link {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: rgb(94, 125, 103);
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
